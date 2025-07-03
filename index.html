@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ibrahim K. Bawa SAN & Co. - Law Firm</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #1c1c1c;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #444;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #222;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1595152772835-219674b2a8a6') no-repeat center center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #222;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      flex: 1 1 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+    }
+    .contact-form button {
+      background: #444;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+    }
+    .map {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+    .login-form {
+      max-width: 400px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .login-form input {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+    }
+    .login-form button {
+      width: 100%;
+      padding: 10px;
+      background: #222;
+      color: white;
+      border: none;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    /* Live Chat Icon */
+    .chat-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #0b93f6;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ibrahim K. Bawa SAN & Co.</h1>
+    <p>Specialists in Election Petition & Constitutional Law</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#practice">Practice Areas</a>
+    <a href="#team">Our Team</a>
+    <a href="#blog">Legal Blog</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#login">Client Login</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Trusted Legal Excellence</h2>
+    <p>Delivering justice with integrity, experience, and precision.</p>
+  </div>
+
+  <section class="section" id="about">
+    <h2>About the Firm</h2>
+    <p>Ibrahim K. Bawa SAN & Co. is a reputable law firm with decades of experience in election petitions, constitutional advocacy, and general litigation. Our senior partners are recognized nationally for their excellence in legal practice and courtroom victories.</p>
+  </section>
+
+  <section class="section" id="practice">
+    <h2>Practice Areas</h2>
+    <div class="cards">
+      <div class="card"><h3>Election Petitions</h3><p>Expert representation in electoral matters, including pre and post-election disputes.</p></div>
+      <div class="card"><h3>Constitutional Law</h3><p>Defending the rule of law through constitutional interpretation and litigation.</p></div>
+      <div class="card"><h3>Litigation</h3><p>Civil and criminal litigation across all levels of Nigerian courts.</p></div>
+      <div class="card"><h3>Corporate Law</h3><p>Advisory and representation for companies and corporate clients.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <h2>Our Legal Team</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Ibrahim K. Bawa, SAN</h3>
+        <p>Founding Partner – Senior Advocate of Nigeria with over 30 years of legal experience.</p>
+      </div>
+      <div class="card">
+        <h3>Barr. Aisha Bello</h3>
+        <p>Partner – Specialist in constitutional and human rights law.</p>
+      </div>
+      <div class="card">
+        <h3>Barr. Yusuf Idris</h3>
+        <p>Senior Associate – Focus on litigation and electoral law.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="blog">
+    <h2>Legal Insights Blog</h2>
+    <p>Stay informed with updates on election laws, constitutional matters, and important legal developments.</p>
+    <ul>
+      <li><strong>April 2025:</strong> Analyzing the 2023 Tribunal Decisions</li>
+      <li><strong>March 2025:</strong> Electoral Act – Challenges and Amendments</li>
+      <li><strong>February 2025:</strong> Understanding Client Rights in Pre-Election Cases</li>
+    </ul>
+  </section>
+
+  <section class="section" id="appointment">
+    <h2>Book an Appointment</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="date" placeholder="Preferred Date" required>
+      <input type="time" placeholder="Preferred Time" required>
+      <textarea rows="4" placeholder="Brief about your case"></textarea>
+      <button type="submit">Request Appointment</button>
+    </form>
+  </section>
+
+  <section class="section" id="login">
+    <h2>Client Login</h2>
+    <form class="login-form">
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+<script>
+  const auth = firebase.auth();
+  document.querySelector('.login-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = e.target[0].value;
+    const password = e.target[1].value;
+    auth.signInWithEmailAndPassword(email, password)
+      .then(userCredential => {
+        alert('Login successful! Redirecting to dashboard...');
+        // Redirect to client dashboard
+        window.location.href = 'dashboard.html';
+      })
+      .catch(error => {
+        alert('Login failed: ' + error.message);
+      });
+  });
+</script>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <br>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.8731799825834!2d7.495253814278705!3d9.057851393504822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b37f1cc4e1d%3A0x4f13b7e0cb2a2d9!2sAbuja%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1618320932910!5m2!1sen!2sng" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ibrahim K. Bawa SAN & Co. | All Rights Reserved</p>
+  </footer>
+
+  <!-- Live Chat Icon -->
+  <div class="chat-icon" onclick="alert('Live chat feature coming soon...')">
+    <i class="fas fa-comments"></i>
+  </div>
+
+</body>
+</html>
